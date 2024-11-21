@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obsidian Frame</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="./assets/css/newStyles.css">
+
+
+</head>
+
+<body class="bg-black muli">
+    <!-- Loading Animation -->
+    <div id="loading">
+        <video autoplay muted loop>
+            <source src="assets/Obsidian/FB-LogoBGBlack.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <img src="assets/Obsidian/logos-20241119T202711Z-001/logos/Logo-White.png" alt="ObsidianFrame Logo" class="w-l5"
+            style="width: 550px; height: auto;"> <button class="navbar-toggler" id="toggler">
+            <i data-feather="menu"></i>
+        </button>
+        <div class="menu" id="menu">
+            <a href="#home"><i data-feather="home"></i> Inicio</a>
+            <a href="#about"><i data-feather="info"></i> Nosotros</a>
+            <a href="#portfolio"><i data-feather="image"></i> Portafolio</a>
+            <a href="#services"><i data-feather="briefcase"></i> Servicios</a>
+            <a href="#pricing"><i data-feather="dollar-sign"></i> Precios</a>
+            <a href="#contact"><i data-feather="mail"></i> Contacto</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-100vh flex justify-center items-center bg-cover"
+        style="background-image: url('assets/images/hero_obsidianframe.jpg'); margin-top: 5rem;">
+        <div class="text-center p-10 bg-black-50 br-8">
+            <h1 class="white fs-xl1 lh-1 fw-900">Capturamos los mejores recuerdos</h1>
+            <p class="indigo-lightest fs-m1 opacity-80">Para que perduren por siempre y satisfaciendo a nuestros
+                clientes de la mejor manera.</p>
+            <a href="#portfolio" class="button-lg bg-indigo white fw-600 mt-5 no-underline">Ver Portafolio</a>
+        </div>
+    </section>
+
+    <section id="about" class="p-10 bg-indigo-lightest-10" data-fade>
+        <h2 class="white fs-l3 fw-900 text-center mb-10">Sobre Nosotros</h2>
+        <div class="flex flex-wrap items-center">
+            <div class="w-100pc md-w-50pc p-10">
+                <h3 class="white fs-l2 fw-700 mb-5">Capturando los mejores recuerdos</h3>
+                <p class="indigo-lightest fs-m1 opacity-80">
+                    Nuestro compromiso es siempre dar la mejor
+                    calidad de imágenes en el mercado, captando los
+                    momentos más especiales de nuestros clientes y
+                    brindándoles una experiencia inolvidable, donde
+                    sabemos que cada momento es sumamente
+                    importante.
+                </p>
+                <blockquote class="bg-black-50 p-5 br-8 mt-5 shadow-lg white fs-m1">
+                    “Las fotografías abren puertas al pasado, pero también permiten echar un vistazo al futuro”.
+                </blockquote>
+                <p class="white fw-600 fs-m1 mt-5">Fotógrafo 📸🎥 | Dronista 🚁🛰</p>
+            </div>
+            <div class="w-100pc md-w-50pc p-10">
+                <img src="assets/Obsidian/logos-20241119T202711Z-001/logos/Logo-Black.png" alt="Sobre Nosotros"
+                    class="w-100pc br-8 shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="p-10 bg-indigo-darkest" data-fade>
+        <h2 class="white fs-l3 fw-900 text-center mb-10">Nuestros Servicios</h2>
+        <div class="flex flex-wrap justify-center">
+            <!-- Servicio 1 -->
+            <div class="w-100pc md-w-30pc p-10 service-card" data-aos="flip-left">
+                <h3 class="white fw-700 fs-m2 mb-5">Sesión por Tiempo</h3>
+                <p class="indigo-lightest fs-m1 opacity-80">Sesiones de 1 a 2 horas en áreas específicas.</p>
+                <ul class="indigo-lightest fs-s1 opacity-80 list-style-none">
+                    <li>FOTOS ILIMITADAS Y EDITADAS</li>
+                    <li>Entrega en USB</li>
+                    <li>Desde Q1,500.00</li>
+                </ul>
+            </div>
+            <!-- Servicio 2 -->
+            <div class="w-100pc md-w-30pc p-10 service-card" data-aos="flip-left" data-aos-delay="100">
+                <h3 class="white fw-700 fs-m2 mb-5">Sesión por Fotos</h3>
+                <p class="indigo-lightest fs-m1 opacity-80">Paquetes desde 20 a 40 fotos editadas.</p>
+                <ul class="indigo-lightest fs-s1 opacity-80 list-style-none">
+                    <li>1 AMPLIACIÓN 12X8 PVC</li>
+                    <li>Fotos físicas y USB</li>
+                    <li>Desde Q800.00</li>
+                </ul>
+            </div>
+            <!-- Servicio 3 -->
+            <div class="w-100pc md-w-30pc p-10 service-card" data-aos="flip-left" data-aos-delay="200">
+                <h3 class="white fw-700 fs-m2 mb-5">Eventos</h3>
+                <p class="indigo-lightest fs-m1 opacity-80">Cobertura de eventos con fotografía profesional.</p>
+                <ul class="indigo-lightest fs-s1 opacity-80 list-style-none">
+                    <li>FOTOGRAFÍAS CON DRON</li>
+                    <li>Paquetes de 2 a 4 horas</li>
+                    <li>Desde Q2,100.00</li>
+                </ul>
+            </div>
+            <!-- Nuevo Servicio 1 -->
+            <div class="w-100pc md-w-30pc p-10 service-card" data-aos="flip-left" data-aos-delay="300">
+                <h3 class="white fw-700 fs-m2 mb-5">Fotografía Institucional</h3>
+                <p class="indigo-lightest fs-m1 opacity-80">Fotografías ideales para empresas e instituciones.</p>
+                <ul class="indigo-lightest fs-s1 opacity-80 list-style-none">
+                    <li>20 fotografías de alta resolución</li>
+                    <li>Perfectas para redes sociales o vallas</li>
+                    <li>Desde Q500.00</li>
+                </ul>
+            </div>
+            <!-- Nuevo Servicio 2 -->
+            <div class="w-100pc md-w-30pc p-10 service-card" data-aos="flip-left" data-aos-delay="400">
+                <h3 class="white fw-700 fs-m2 mb-5">Video Institucional</h3>
+                <p class="indigo-lightest fs-m1 opacity-80">Producción de video de alta calidad.</p>
+                <ul class="indigo-lightest fs-s1 opacity-80 list-style-none">
+                    <li>Video de 45 segundos</li>
+                    <li>Flexible según la distancia</li>
+                    <li>Desde Q1,000.00</li>
+                </ul>
+            </div>
+            <!-- Nuevo Servicio 3 -->
+            <div class="w-100pc md-w-30pc p-10 service-card" data-aos="flip-left" data-aos-delay="500">
+                <h3 class="white fw-700 fs-m2 mb-5">Fotografía y Video</h3>
+                <p class="indigo-lightest fs-m1 opacity-80">Combinación perfecta para publicidad.</p>
+                <ul class="indigo-lightest fs-s1 opacity-80 list-style-none">
+                    <li>20 fotografías de alta resolución</li>
+                    <li>Video de 45 segundos</li>
+                    <li>Desde Q1,500.00</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Portafolio Section -->
+    <section id="portfolio" class="p-10" data-fade>
+        <h2 class="white fs-l3 fw-900 text-center mb-10">Nuestro Portafolio</h2>
+        <div class="flex flex-wrap" id="portfolio-container">
+            <!-- Las imágenes se agregarán aquí mediante JavaScript -->
+        </div>
+    </section>
+
+    <!-- Precios Section -->
+    <section id="pricing" class="p-10 bg-indigo-lightest-10" data-fade>
+        <h2 class="white fs-l3 fw-900 text-center mb-10">Nuestros Precios</h2>
+        <div class="flex flex-column md-flex-row justify-around">
+            <div class="pricing-card w-100pc md-w-30pc" onclick="handlePricingClick()">
+                <h3>Ver Detalles de Precios</h3>
+                <p class="fs-m1 opacity-80">Haz clic para visualizar todos los precios en detalle.</p>
+            </div>
+        </div>
+        <div id="pdf-container"
+            style="display: none; opacity: 0; transform: translateY(20px); transition: all 0.5s ease;">
+            <iframe src="/assets/Obsidian/Cotizacion_obsidian.pdf" width="100%" height="600px" style="border: none;"
+                class="mt-10"></iframe>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contact" class="p-10" data-fade>
+        <h2 class="white fs-l3 fw-900 text-center mb-10">Contáctanos</h2>
+        <div class="flex flex-wrap">
+            <div class="w-100pc md-w-50pc p-10">
+                <form>
+                    <input type="text" placeholder="Tu Nombre" class="input-lg w-100pc br-8 p-4 mb-5">
+                    <input type="email" placeholder="Tu Correo" class="input-lg w-100pc br-8 p-4 mb-5">
+                    <textarea placeholder="Tu Mensaje" class="input-lg w-100pc br-8 p-4 mb-5"></textarea>
+                    <button class="button-lg bg-indigo white fw-600 w-100pc">Enviar</button>
+                </form>
+            </div>
+            <div class="w-100pc md-w-50pc p-10">
+                <h3 class="white fw-600 fs-m3">Información de Contacto</h3>
+                <p class="indigo-lightest fw-600 fs-m1 opacity-80">Teléfono: 5690 3784</p>
+                <p class="indigo-lightest fw-600 fs-m1 opacity-80">Correo: ddavideemanuel@gmail.com</p>
+                <p class="indigo-lightest fw-600 fs-m1 opacity-80">Dirección: Cobán, Guatemala</p>
+                <div class="flex mt-5">
+                    <a href="https://www.instagram.com/obsidian_frame" target="_blank"
+                        class="p-3 bg-indigo br-round white hover-opacity-100 mx-2">
+                        <i data-feather="instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/EmanuelChapinProducciones5/" target="_blank"
+                        class="p-3 bg-indigo br-round white hover-opacity-100 mx-2">
+                        <i data-feather="facebook"></i>
+                    </a>
+                    <a href="https://wa.me/56903784" target="_blank"
+                        class="p-3 bg-green br-round white hover-opacity-100 mx-2">
+                        <i data-feather="phone"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-black">
+        <div class="flex justify-between items-center">
+            <img src="assets/Obsidian/logos-20241119T202711Z-001/logos/Logo-White.png" alt="ObsidianFrame Logo"
+                class="w-l5">
+            <div class="indigo-lightest fs-s3">
+                &copy; 2024 Obsidian Frame. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 1200, // Duración de la animación en ms
+            once: true, // Animar solo la primera vez que se vea
+        });
+
+        // Remove loading animation after 3 seconds
+        const loading = document.getElementById("loading");
+        window.addEventListener("load", () => {
+            setTimeout(() => {
+                loading.style.display = "none";
+            }, 5500);
+        });
+
+        feather.replace();
+
+        // Toggle menu for small screens
+        const toggler = document.getElementById('toggler');
+        const menu = document.getElementById('menu');
+        toggler.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+
+        // Scroll animations
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("is-visible");
+                    }
+                });
+            },
+            { threshold: 0.1 }
+        );
+
+        document.querySelectorAll("[data-fade]").forEach((section) => {
+            observer.observe(section);
+        });
+    </script>
+    <script>
+        function togglePDF() {
+            const pdfContainer = document.getElementById('pdf-container');
+            if (pdfContainer.style.display === 'none') {
+                pdfContainer.style.display = 'block';
+                setTimeout(() => {
+                    pdfContainer.style.opacity = '1';
+                    pdfContainer.style.transform = 'translateY(0)';
+                }, 50);
+            } else {
+                pdfContainer.style.opacity = '0';
+                pdfContainer.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    pdfContainer.style.display = 'none';
+                }, 500);
+            }
+        }
+    </script>
+    <script>
+        // Array de rutas de imágenes en la carpeta 'assets/Obsidian/portafolio'
+        const images = [
+            "assets/Obsidian/portafolio/_DSC0003.jpg",
+            "assets/Obsidian/portafolio/_DSC0057.jpg",
+            "assets/Obsidian/portafolio/_DSC0079.jpg",
+            "assets/Obsidian/portafolio/_DSC0085.jpg",
+            "assets/Obsidian/portafolio/_DSC0099.jpg",
+            "assets/Obsidian/portafolio/_DSC0559.jpg",
+            "assets/Obsidian/portafolio/_DSC0567.jpg",
+            "assets/Obsidian/portafolio/_DSC0578.jpg",
+            "assets/Obsidian/portafolio/_DSC0601.jpg",
+            "assets/Obsidian/portafolio/_DSC0605.jpg",
+            "assets/Obsidian/portafolio/_DSC0626.jpg",
+            "assets/Obsidian/portafolio/_DSC0627.jpg",
+            "assets/Obsidian/portafolio/_DSC0631.jpg",
+            "assets/Obsidian/portafolio/_DSC0639.jpg",
+            "assets/Obsidian/portafolio/_DSC0658.jpg",
+            "assets/Obsidian/portafolio/_DSC0677.jpg",
+            "assets/Obsidian/portafolio/_DSC0693.jpg",
+            "assets/Obsidian/portafolio/_DSC0753.jpg",
+            "assets/Obsidian/portafolio/_DSC0764.jpg",
+            "assets/Obsidian/portafolio/_DSC3939.jpg",
+            "assets/Obsidian/portafolio/_DSC3945.jpg",
+            "assets/Obsidian/portafolio/_DSC3958.jpg",
+            "assets/Obsidian/portafolio/_DSC3990.jpg",
+            "assets/Obsidian/portafolio/_DSC8718.jpg",
+            "assets/Obsidian/portafolio/_DSC8930.jpg",
+            "assets/Obsidian/portafolio/_DSC9213.jpg",
+            "assets/Obsidian/portafolio/_DSC9424.jpg",
+            "assets/Obsidian/portafolio/_DSC9586.dng",
+            "assets/Obsidian/portafolio/_DSC9657.jpg",
+            "assets/Obsidian/portafolio/_DSC9662.jpg",
+            "assets/Obsidian/portafolio/_DSC9732.jpg",
+            "assets/Obsidian/portafolio/_DSC9742.jpg",
+            "assets/Obsidian/portafolio/_DSC9778.jpg",
+            "assets/Obsidian/portafolio/_DSC9779.jpg",
+            "assets/Obsidian/portafolio/_DSC9810.jpg",
+            "assets/Obsidian/portafolio/_DSC9849.jpg",
+            "assets/Obsidian/portafolio/_DSC9883.jpg"
+        ];
+
+        // Función para obtener imágenes aleatorias
+        function getRandomImages(num) {
+            const shuffled = images.sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, num);
+        }
+
+        // Función para crear y agregar imágenes al contenedor
+        function loadImages() {
+            const portfolioContainer = document.getElementById('portfolio-container');
+            const randomImages = getRandomImages(9); // Muestra más imágenes para una experiencia más completa
+
+            randomImages.forEach((src, index) => {
+                const div = document.createElement('div');
+                div.className = 'w-100pc md-w-33pc p-10';
+                div.setAttribute('data-aos', 'fade-up'); // Añade animación fade-up desde abajo
+                div.setAttribute('data-aos-delay', `${index * 100}`); // Retraso progresivo para cada imagen
+                const img = document.createElement('img');
+                img.className = 'w-100pc br-8 shadow-lg';
+                img.src = src;
+                img.alt = 'Fotografía de Portafolio';
+                div.appendChild(img);
+                portfolioContainer.appendChild(div);
+            });
+        }
+        // Cargar imágenes al cargar la página
+        window.onload = loadImages;
+    </script>
+    <script>
+        function handlePricingClick() {
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                // Descargar directamente el archivo en dispositivos móviles
+                const downloadLink = document.createElement('a');
+                downloadLink.href = '/assets/Obsidian/Cotizacion_obsidian.pdf';
+                downloadLink.download = 'Cotizacion_obsidian.pdf';
+                downloadLink.click();
+            } else {
+                // Mostrar el PDF en iframe para dispositivos no móviles
+                const pdfContainer = document.getElementById('pdf-container');
+                pdfContainer.style.display = 'block';
+                setTimeout(() => {
+                    pdfContainer.style.opacity = '1';
+                    pdfContainer.style.transform = 'translateY(0)';
+                }, 50);
+            }
+        }
+
+    </script>
+</body>
+
+</html>
